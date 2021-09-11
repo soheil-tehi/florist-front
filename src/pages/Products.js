@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
-    <div >
+    <div>
       <section id="portfolio" className="portfolio">
         <div className="container">
           <div
@@ -37,8 +37,35 @@ const Products = () => {
             </div> */}
 
           <div className="row portfolio-container" data-aos="fade-up">
-            {/* garden plants */}
+            {/* House plants */}
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <Link to="/plant/HousePlants">
+                <div className="portfolio-wrap">
+                  <img
+                    src="/images/class/house.jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="portfolio-links">
+                    <h4 style={{ color: "green" }}>گیاه آپارتمانی</h4>
+                    {/* <a
+                        href="assets/img/portfolio/portfolio-2.jpg"
+                        data-gall="portfolioGallery"
+                        className="venobox"
+                        title="Web 3"
+                      >
+                        <i className="bx bx-plus"></i>
+                      </a>
+                      <a href="portfolio-details.html" title="More Details">
+                        <i className="bx bx-link"></i>
+                      </a> */}
+                  </div>
+                </div>
+              </Link>
+            </div>
 
+            {/* garden plants */}
+            {/* 
             <div className="col-lg-3 col-md-6 portfolio-item filter-card">
               <Link to="/plant/GardenPlants">
                 <div className="portfolio-wrap">
@@ -61,13 +88,13 @@ const Products = () => {
                     <a href="portfolio-details.html" title="More Details">
                       <i className="bx bx-link"></i>
                     </a> */}
-                  </div>
+            {/* </div>
                 </div>
               </Link>
-            </div>
+            </div> */}
 
             {/* kaktos */}
-            <div className="col-lg-3 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <Link to="/plant/kaktos">
                 <div className="portfolio-wrap">
                   <img
@@ -94,7 +121,7 @@ const Products = () => {
             </div>
 
             {/* sakolnet plants */}
-            <div className="col-lg-3 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <Link to="/plant/Sakolent">
                 <div className="portfolio-wrap">
                   <img
@@ -119,150 +146,6 @@ const Products = () => {
                 </div>
               </Link>
             </div>
-
-            {/* House plants */}
-            <div className="col-lg-3 col-md-6 portfolio-item filter-web">
-              <Link to="/plant/HousePlants">
-                <div className="portfolio-wrap">
-                  <img
-                    src="/images/class/house.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <h4 style={{ color: "green" }}>گیاه آپارتمانی</h4>
-                    {/* <a
-                        href="assets/img/portfolio/portfolio-2.jpg"
-                        data-gall="portfolioGallery"
-                        className="venobox"
-                        title="Web 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a> */}
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-5.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-5.jpg"
-                      data-gall="portfolioGallery"
-                      className="venobox"
-                      title="Web 2"
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a href="portfolio-details.html" title="More Details">
-                      <i className="bx bx-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-6.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-6.jpg"
-                      data-gall="portfolioGallery"
-                      className="venobox"
-                      title="App 3"
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a href="portfolio-details.html" title="More Details">
-                      <i className="bx bx-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-7.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-7.jpg"
-                      data-gall="portfolioGallery"
-                      className="venobox"
-                      title="Card 1"
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a href="portfolio-details.html" title="More Details">
-                      <i className="bx bx-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-8.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-8.jpg"
-                      data-gall="portfolioGallery"
-                      className="venobox"
-                      title="Card 3"
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a href="portfolio-details.html" title="More Details">
-                      <i className="bx bx-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-9.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-links">
-                    <a
-                      href="assets/img/portfolio/portfolio-9.jpg"
-                      data-gall="portfolioGallery"
-                      className="venobox"
-                      title="Web 3"
-                    >
-                      <i className="bx bx-plus"></i>
-                    </a>
-                    <a href="portfolio-details.html" title="More Details">
-                      <i className="bx bx-link"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            
-             */}
           </div>
         </div>
       </section>
