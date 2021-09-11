@@ -16,10 +16,11 @@ const NavCom = () => {
   let cartItem2 = useSelector((state) => state);
 
   useEffect(() => {
-    setCartItems(JSON.parse(localStorage.getItem("cartItems")));
-    for (let i = 0; i < cartItem2.length + 1; i++) {
-      setCounter(i);
-      
+    if (cartItem2 != null) {
+      setCartItems(JSON.parse(localStorage.getItem("cartItems")));
+      for (let i = 0; i < cartItem2.length + 1; i++) {
+        setCounter(i);
+      }
     }
   }, [cartItem2]);
 
