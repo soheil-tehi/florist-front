@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Parastoo;
+  src: url("./fonts/Parastoo.eot");
+  src: url("./fonts/Parastoo.eot?#iefix") format("Parastoo-opentype"),
+    url("./fonts/Parastoo.ttf") format("truetype");
+  src: url("./fonts/Parastoo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Parastoo";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

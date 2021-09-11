@@ -1,0 +1,13 @@
+.navbar {
+  background-color: rgb(240, 227, 227);
+}
+
+.navItem {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+.navItem:hover {
+  color: green;
+}
