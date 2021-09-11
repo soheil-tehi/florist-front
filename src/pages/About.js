@@ -56,7 +56,7 @@ const About = () => {
                   />
                 </div>
                 <div className="member-info">
-                  <h4>زضا جمشیدی</h4>
+                  <h4>سجادآخوندزاده</h4>
                   <span>مدیریت گلخانه تهران</span>
                   <div className="social">
                     <a>
