@@ -58,9 +58,16 @@ const Footer = () => {
                 <p style={{ textAlign: "end" }}>
                   برای اطلاع از آخرین مقالات و تخفیف ها عضو خبر نامه شوید
                 </p>
-                <form >
+                <form>
                   <input type="email" name="email" />
-                  <input type="submit" value="عضویت"  style={{fontFamily: "Parastoo"}}/>
+                  <input
+                    type="submit"
+                    value="عضویت"
+                    onClick={(e) => {
+                      e.preventDefault();
+                    }}
+                    style={{ fontFamily: "Parastoo" }}
+                  />
                 </form>
               </div>
 
@@ -70,8 +77,8 @@ const Footer = () => {
                 data-aos-delay="150"
               >
                 <h4>گلستان</h4>
-                <ul style={{ marginLeft:"15px" }} >
-                  <li >
+                <ul style={{ marginLeft: "15px" }}>
+                  <li>
                     <Link to="/">خانه</Link>
                     <i className="bx bx-chevron-right"></i>{" "}
                   </li>

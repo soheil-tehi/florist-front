@@ -12,7 +12,9 @@ const Contact = () => {
           >
             <h2>تماس با ما</h2>
             <p>
-            تمامی مشتریان میتوانند جهت کسب اطلاعات بیشتر از محصولات سایت گلستان با شماره 88468729 -021 تماس حاصل نمایند و یا با فرم زیر در ارتباط باشند
+              تمامی مشتریان میتوانند جهت کسب اطلاعات بیشتر از محصولات سایت
+              گلستان با شماره 88468729 -021 تماس حاصل نمایند و یا با فرم زیر در
+              ارتباط باشند
             </p>
           </div>
 
@@ -67,11 +69,7 @@ const Contact = () => {
             </div>
 
             <div className="col-lg-6">
-              <form
-                
-                role="form"
-                className="php-email-form"
-              >
+              <form role="form" className="php-email-form">
                 <div className="form-row">
                   <div className="col-md-6 form-group">
                     <input
@@ -91,7 +89,7 @@ const Contact = () => {
                       className="form-control"
                       name="email"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="ایمیل شما"
                       data-rule="ایمیل"
                       data-msg="Please enter a valid email"
                     />
@@ -124,12 +122,17 @@ const Contact = () => {
                 <div className="mb-3">
                   <div className="loading">Loading</div>
                   <div className="error-message"></div>
-                  <div className="sent-message">
-                   
-                  </div>
+                  <div className="sent-message"></div>
                 </div>
                 <div className="text-center">
-                  <button type="submit">ارسال پیغام</button>
+                  <button
+                    type="submit"
+                    onClick={(e) => {
+                      e.preventDefault();
+                    }}
+                  >
+                    ارسال پیغام
+                  </button>
                 </div>
               </form>
             </div>
