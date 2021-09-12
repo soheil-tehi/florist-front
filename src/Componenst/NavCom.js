@@ -29,7 +29,7 @@ const NavCom = () => {
       {/* {console.log("cart count", counter)} */}
       <Navbar className="navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand >
             <h2 style={{ fontWeight: "bolder", color: "green", marginTop: 10 }}>
               گلستان
             </h2>

@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="col-lg-3 col-md-6">
               <div className="info-box  mb-4">
                 <i className="bx bx-envelope"></i>
-                <h3>ایمیل ما</h3>
+                <h3>ایمیل </h3>
                 <p>golestan@info.com</p>
               </div>
             </div>
@@ -73,11 +73,12 @@ const Contact = () => {
                 <div className="form-row">
                   <div className="col-md-6 form-group">
                     <input
+                      style={{ textAlign: "end" }}
                       type="text"
                       name="name"
                       className="form-control"
                       id="name"
-                      placeholder="نام "
+                      placeholder="ایمیل شما "
                       data-rule="minlen:4"
                       data-msg="Please enter at least 4 chars"
                     />
@@ -85,11 +86,12 @@ const Contact = () => {
                   </div>
                   <div className="col-md-6 form-group">
                     <input
+                      style={{ textAlign: "end" }}
                       type="email"
                       className="form-control"
                       name="email"
                       id="email"
-                      placeholder="ایمیل شما"
+                      placeholder="نام"
                       data-rule="ایمیل"
                       data-msg="Please enter a valid email"
                     />
@@ -98,6 +100,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group">
                   <input
+                    style={{ textAlign: "end" }}
                     type="text"
                     className="form-control"
                     name="subject"
@@ -110,6 +113,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group">
                   <textarea
+                    style={{ textAlign: "end" }}
                     className="form-control"
                     name="message"
                     rows="5"
