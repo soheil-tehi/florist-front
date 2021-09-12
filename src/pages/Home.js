@@ -48,7 +48,7 @@ const Home = () => {
                       data-aos="fade-up"
                       data-aos-delay="100"
                     >
-                     <i className="bx bxs-cloud-rain"></i>
+                      <i className="bx bxs-cloud-rain"></i>
                       <h4>تصفیه هوا و آزاد شدن اکسیژن</h4>
                       <p>
                         با قرار دادن گل در نقاط مختلف منزل می توان این آلودگی را
@@ -61,7 +61,7 @@ const Home = () => {
                       data-aos="fade-up"
                       data-aos-delay="200"
                     >
-                       <i className="bx bxs-heart"></i>
+                      <i className="bx bxs-heart"></i>
                       <h4>افزایش روابط صمیمی‌تر و موثرتری با دیگران </h4>
                       <p>
                         در زمینه تاثیر نگهداری گل در خانه و شرکت تحقیقات بسیاری
@@ -88,7 +88,7 @@ const Home = () => {
                       data-aos="fade-up"
                       data-aos-delay="400"
                     >
-                        <i className="bx bxs-shield"></i>
+                      <i className="bx bxs-shield"></i>
                       <h4>کاهش سرماخوردگی، گلودرد و سرفه‌های خشک</h4>
                       <p>
                         براساس مطالعه‌ای که در دانشگاه کشاورزی نروژ انجام شد
@@ -127,15 +127,15 @@ const Home = () => {
               <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div className="icon-box" data-aos="fade-up">
                   <div className="icon">
-                  <i className="bx bxs-shield"></i>
+                    <i className="bx bxs-shield"></i>
                   </div>
                   <h4 className="title">
-                    <p >ضمانت اصالت و سلامت کالا</p>
+                    <p>ضمانت اصالت و سلامت کالا</p>
                   </h4>
                   <p className="description">
-                    تمامی محصولات  گلستان همراه با پلاکِ مخصوصِ برندِ ما
-                    عرضه خواهند شد و شما میتوانید محصولات فرعی و غیر اصل را توسط
-                    این پلاک تشخیص دهید.
+                    تمامی محصولات گلستان همراه با پلاکِ مخصوصِ برندِ ما عرضه
+                    خواهند شد و شما میتوانید محصولات فرعی و غیر اصل را توسط این
+                    پلاک تشخیص دهید.
                   </p>
                 </div>
               </div>
@@ -147,13 +147,13 @@ const Home = () => {
                   data-aos-delay="100"
                 >
                   <div className="icon">
-                  <i className="bx bx-money"></i>
+                    <i className="bx bx-money"></i>
                   </div>
                   <h4 className="title">
                     <p>پرداخت در محل</p>
                   </h4>
                   <p className="description">
-                    پرداخت به سفیر  گلستان در محل، به صورت نقدی و یا از طریق
+                    پرداخت به سفیر گلستان در محل، به صورت نقدی و یا از طریق
                     کارت‌خوان.
                   </p>
                 </div>
@@ -166,14 +166,14 @@ const Home = () => {
                   data-aos-delay="200"
                 >
                   <div className="icon">
-                  <i className="bx bxs-tree"></i>
+                    <i className="bx bxs-tree"></i>
                   </div>
                   <h4 className="title">
                     <p>خدمات باغبانی و گیاهان آپارتمانی</p>
                   </h4>
                   <p className="description">
-                    خبر خوب این است که  گلستان بعد از اتمام فرآیند خرید، شما
-                    را تنها نخواهد گذاشت. کارشناسان ما همواره برای پاسخگویی به
+                    خبر خوب این است که گلستان بعد از اتمام فرآیند خرید، شما را
+                    تنها نخواهد گذاشت. کارشناسان ما همواره برای پاسخگویی به
                     سوالات شما عزیزان، آماده به خدمت خواهند بود
                   </p>
                 </div>
@@ -186,7 +186,7 @@ const Home = () => {
                   data-aos-delay="300"
                 >
                   <div className="icon">
-                  <i className="bx bx-run"></i>
+                    <i className="bx bx-run"></i>
                   </div>
                   <h4 className="title">
                     <p>ارسال سریع و مطمئن</p>
@@ -254,8 +254,8 @@ const Home = () => {
               <p>
                 {" "}
                 اگر شما هم نیاز به مشاوره برای گیاهان آپارتماین خود
-                دارید،میتوانید روی متخصصین گل و گیاه گلستان حساب کنید و از
-                خدمات و سرویس‌های ما استفاده کنید
+                دارید،میتوانید روی متخصصین گل و گیاه گلستان حساب کنید و از خدمات
+                و سرویس‌های ما استفاده کنید
               </p>
               <Link className="cta-btn link" to="/contact">
                 ارتباط با پشتیبانی
@@ -276,11 +276,10 @@ const Home = () => {
                 هنگام خرید گیاه آپارتمانی جدید، آن را به چشم یک موجود زنده نگاه
                 کنید. شرایط خانه‌تان را برای ورود انواع گیاه گلدانی جدید آماده
                 کنید. جای مناسب به او اختصاص دهید. سپس از گلخانه فروشگاه
-                اینترنتی گل و گیاه گلستان او را به خانه خود دعوت کنید.
-                گلستان با راه‌اندازی لاین فروش گل و گیاه اینترنتی این موقعیت
-                را برای شما فراهم کرده و شما می‌توانید بدون نیاز به رفتن به
-                بازار گل و گیاه، با خرید آنلاین گیاه آن‌ها را در محل خود تحویل
-                بگیرید
+                اینترنتی گل و گیاه گلستان او را به خانه خود دعوت کنید. گلستان با
+                راه‌اندازی لاین فروش گل و گیاه اینترنتی این موقعیت را برای شما
+                فراهم کرده و شما می‌توانید بدون نیاز به رفتن به بازار گل و گیاه،
+                با خرید آنلاین گیاه آن‌ها را در محل خود تحویل بگیرید
               </p>
             </div>
 
@@ -298,8 +297,35 @@ const Home = () => {
             </div> */}
 
             <div className="row portfolio-container" data-aos="fade-up">
-              {/* garden plants */}
+              {/* House plants */}
+              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                <Link to="/plant/HousePlants">
+                  <div className="portfolio-wrap">
+                    <img
+                      src="/images/class/house.jpg"
+                      className="img-fluid"
+                      alt=""
+                    />
+                    <div className="portfolio-links">
+                      <h4 style={{ color: "green" }}>گیاه آپارتمانی</h4>
+                      {/* <a
+                        href="assets/img/portfolio/portfolio-2.jpg"
+                        data-gall="portfolioGallery"
+                        className="venobox"
+                        title="Web 3"
+                      >
+                        <i className="bx bx-plus"></i>
+                      </a>
+                      <a href="portfolio-details.html" title="More Details">
+                        <i className="bx bx-link"></i>
+                      </a> */}
+                    </div>
+                  </div>
+                </Link>
+              </div>
 
+              {/* garden plants */}
+              {/* 
               <div className="col-lg-3 col-md-6 portfolio-item filter-card">
                 <Link to="/plant/GardenPlants">
                   <div className="portfolio-wrap">
@@ -322,13 +348,13 @@ const Home = () => {
                     <a href="portfolio-details.html" title="More Details">
                       <i className="bx bx-link"></i>
                     </a> */}
-                    </div>
+              {/* </div>
                   </div>
                 </Link>
-              </div>
+              </div>  */}
 
               {/* kaktos */}
-              <div className="col-lg-3 col-md-6 portfolio-item filter-app">
+              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <Link to="/plant/kaktos">
                   <div className="portfolio-wrap">
                     <img
@@ -355,7 +381,7 @@ const Home = () => {
               </div>
 
               {/* sakolnet plants */}
-              <div className="col-lg-3 col-md-6 portfolio-item filter-app">
+              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <Link to="/plant/Sakolent">
                   <div className="portfolio-wrap">
                     <img
@@ -376,33 +402,6 @@ const Home = () => {
                     <a href="portfolio-details.html" title="More Details">
                       <i className="bx bx-link"></i>
                     </a> */}
-                    </div>
-                  </div>
-                </Link>
-              </div>
-
-              {/* House plants */}
-              <div className="col-lg-3 col-md-6 portfolio-item filter-web">
-                <Link to="/plant/HousePlants">
-                  <div className="portfolio-wrap">
-                    <img
-                      src="/images/class/house.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-links">
-                      <h4 style={{ color: "green" }}>گیاه آپارتمانی</h4>
-                      {/* <a
-                        href="assets/img/portfolio/portfolio-2.jpg"
-                        data-gall="portfolioGallery"
-                        className="venobox"
-                        title="Web 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a> */}
                     </div>
                   </div>
                 </Link>
@@ -536,11 +535,11 @@ const Home = () => {
               data-aos-delay="100"
             >
               <h2>حسین پناهی</h2>
-              <p style={{lineHeight:2}}>
-                پدرم می‌گوید کتاب<br/> 
-                مادرم می‌گوید دعا <br/>
-                و من خوب می‌دانم که زیباترین
-                تعریف خدا را فقط باید از زبان گل‌ها شنید
+              <p style={{ lineHeight: 2 }}>
+                پدرم می‌گوید کتاب
+                <br />
+                مادرم می‌گوید دعا <br />و من خوب می‌دانم که زیباترین تعریف خدا
+                را فقط باید از زبان گل‌ها شنید
               </p>
             </div>
             {/* 
