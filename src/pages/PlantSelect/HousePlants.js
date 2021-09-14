@@ -64,9 +64,7 @@ const HousePlants = () => {
                       className="img-fluid"
                       alt=""
                     />
-                    {
-                      console.log("kaktos.images[0]",kaktos.images[0])
-                    }
+                
                     <div className="portfolio-links">
                       <h4>{kaktos.name}</h4>
                       {/* <a
